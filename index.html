@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weatherly | Modern Weather Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">
+                    <span class="logo-icon">W</span>
+                    <span>Weatherly</span>
+                </a>
+                <div class="nav-links">
+                    <a href="#">Home</a>
+                    <a href="#features">Features</a>
+                    <a href="#demo">Demo</a>
+                    <a href="#">Pricing</a>
+                    <a href="#">Contact</a>
+                </div>
+                <button class="mobile-menu-btn">☰</button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Beautiful weather data at your fingertips</h1>
+                    <p>Weatherly provides accurate, real-time weather information with a clean, intuitive interface that works across all your devices.</p>
+                    <div class="hero-buttons">
+                        <a href="#demo" class="btn btn-primary">Live Demo</a>
+                        <a href="#" class="btn btn-outline">Learn More</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="https://via.placeholder.com/600x400" alt="Weather Dashboard Preview">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- API Demo Section -->
+    <section class="api-demo" id="demo">
+        <div class="container">
+            <div class="api-demo-header">
+                <h2>Real-time Weather Data</h2>
+                <p>See our API in action with this live demo. Easily integrate this into your own application.</p>
+            </div>
+            
+            <!-- Weather Card - This is where API data would be displayed -->
+            <div class="weather-card">
+                <div class="weather-header">
+                    <div class="weather-location">
+                        <h3>New York, NY</h3>
+                        <p class="weather-date">Monday, June 6, 2023</p>
+                    </div>
+                    <div class="weather-condition">Sunny</div>
+                </div>
+                
+                <div class="weather-main">
+                    <div class="weather-icon">☀️</div>
+                    <div class="weather-temp">72°F</div>
+                </div>
+                
+                <div class="weather-details">
+                    <div class="weather-detail">
+                        <h4>Humidity</h4>
+                        <p>65%</p>
+                    </div>
+                    <div class="weather-detail">
+                        <h4>Wind Speed</h4>
+                        <p>8 mph</p>
+                    </div>
+                    <div class="weather-detail">
+                        <h4>Pressure</h4>
+                        <p>1012 hPa</p>
+                    </div>
+                    <div class="weather-detail">
+                        <h4>Visibility</h4>
+                        <p>10 mi</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="api-note">
+                <p>This is a demo display. To connect to a real weather API like OpenWeatherMap, you would replace the static data with API calls.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Powerful Features</h2>
+                <p>Everything you need to build weather-aware applications</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🌡️</div>
+                    <h3>Real-time Data</h3>
+                    <p>Get up-to-the-minute weather information with our reliable API service.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🌎</div>
+                    <h3>Global Coverage</h3>
+                    <p>Access weather data for any location worldwide with precise coordinates.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Historical Data</h3>
+                    <p>Analyze weather patterns with our extensive historical data archive.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🔌</div>
+                    <h3>Easy Integration</h3>
+                    <p>Simple REST API with clear documentation for quick implementation.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">📱</div>
+                    <h3>Mobile Friendly</h3>
+                    <p>Responsive design that works perfectly on all device sizes.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3>Secure & Reliable</h3>
+                    <p>Enterprise-grade infrastructure with 99.9% uptime guarantee.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <span class="logo-icon">W</span>
+                        <span>Weatherly</span>
+                    </a>
+                    <p>Beautiful weather data for developers and businesses.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Product</h4>
+                        <a href="#">Features</a>
+                        <a href="#">Pricing</a>
+                        <a href="#">API</a>
+                        <a href="#">Integrations</a>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <a href="#">About</a>
+                        <a href="#">Blog</a>
+                        <a href="#">Careers</a>
+                        <a href="#">Contact</a>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Resources</h4>
+                        <a href="#">Documentation</a>
+                        <a href="#">Guides</a>
+                        <a href="#">Support</a>
+                        <a href="#">Community</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Weatherly. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="#">Twitter</a>
+                    <a href="#">Facebook</a>
+                    <a href="#">LinkedIn</a>
+                    <a href="#">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
