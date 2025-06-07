@@ -5,11 +5,17 @@
 ---
 
 ##TEAM MEMBERS
+
 .SAMEER DUMNE
+
 .OM BAGADE
+
 .OM KAYANDE
+
 .NISCHAY SHIRSAGAR
+
 .SUDHANSHU BAGDE
+
 
 ## 🚀 Features
 
