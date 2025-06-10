@@ -1,7 +1,7 @@
 class WeatherController {
     async getWeatherData(req, res) {
         try {
-            const location = req.query.location || 'New York'; // Default location
+            const location = req.query.location || 'New York'; 
             const weatherData = await fetchWeatherData(location);
             res.status(200).json(weatherData);
         } catch (error) {
