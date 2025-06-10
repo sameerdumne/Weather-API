@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_KEY = 'YOUR_API_KEY'; // Replace with your actual API key
+const API_KEY = '885a854cd698ada0484ac09397b1289f'; 
 const BASE_URL = 'https://api.openweathermap.org/data/2.5/weather';
 
 export const fetchWeatherData = async (city) => {
